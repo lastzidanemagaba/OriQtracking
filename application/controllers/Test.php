@@ -331,5 +331,9 @@ class Test extends CI_Controller {
 	public function date() {
 		echo "Date: " . strtotime('2022-02-25 15:43:00');
 	}
+	
+	public function echo_test() {
+		echo "Halo dunia.";
+	}
 }
 
