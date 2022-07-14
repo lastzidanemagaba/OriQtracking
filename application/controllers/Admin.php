@@ -9,7 +9,7 @@ class Admin extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -20,7 +20,7 @@ class Admin extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -33,7 +33,7 @@ class Admin extends CI_Controller {
 				'editedAdminID' => $adminID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	

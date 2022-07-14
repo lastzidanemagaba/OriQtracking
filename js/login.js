@@ -17,7 +17,7 @@ function login() {
 			var adminInfo = JSON.parse(response);
 			var responseCode = parseInt(adminInfo['response_code'].toString());
 			if (responseCode == 1) {
-				window.location.href = "https://dev.jtindonesia.com/admin/admin";
+				window.location.href = "http://localhost/admin/admin";
 			} else if (responseCode == -1) {
 				alert("Kombinasi email dan kata sandi salah.");
 			}

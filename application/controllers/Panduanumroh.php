@@ -9,7 +9,7 @@ class Panduanumroh extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -20,7 +20,7 @@ class Panduanumroh extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -33,7 +33,7 @@ class Panduanumroh extends CI_Controller {
 				'babID' => $babID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -48,7 +48,7 @@ class Panduanumroh extends CI_Controller {
 				'subbabID' => $subbabID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -63,7 +63,7 @@ class Panduanumroh extends CI_Controller {
 				'subbabID' => $subbabID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -76,7 +76,7 @@ class Panduanumroh extends CI_Controller {
 				'babID' => $babID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -89,7 +89,7 @@ class Panduanumroh extends CI_Controller {
 				'id' => $id
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -106,7 +106,7 @@ class Panduanumroh extends CI_Controller {
 				'editedSubBabID' => $subbabID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -119,7 +119,7 @@ class Panduanumroh extends CI_Controller {
 				'editedID' => $id
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -132,7 +132,7 @@ class Panduanumroh extends CI_Controller {
 				'editedID' => $id
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 }

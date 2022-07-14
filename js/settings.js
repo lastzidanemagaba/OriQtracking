@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 var app = angular.module("qtracking", []);
 app.controller("qtracking-controller", function ($scope, $http) {
-	$http.get("https://dev.jtindonesia.com/admin/index.php/admin/get_settings").then(function (response) {
+	$http.get("http://localhost/admin/index.php/admin/get_settings").then(function (response) {
 		$scope.configs = response.data;
 		configs = $scope.configs;
 	});
@@ -20,7 +20,7 @@ app.controller("qtracking-controller", function ($scope, $http) {
 			})
 				.then(response => response.text())
 				.then(async (response) => {
-					window.location.href = "https://dev.jtindonesia.com/admin/settings";
+					window.location.href = "http://localhost/admin/settings";
 				});
 		}
 	};
@@ -43,6 +43,6 @@ function save() {
 	})
 		.then(response => response.text())
 		.then(async (response) => {
-			window.location.href = "https://dev.jtindonesia.com/admin/settings";
+			window.location.href = "http://localhost/admin/settings";
 		});
 }

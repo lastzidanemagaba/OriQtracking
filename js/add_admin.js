@@ -49,7 +49,7 @@ function save() {
 			var obj = JSON.parse(response);
 			var responseCode = parseInt(obj['response_code'].toString());
 			if (responseCode == 1) {
-				window.location.href = "https://dev.jtindonesia.com/admin/admin";
+				window.location.href = "http://localhost/admin/admin";
 			} else if (responseCode == -1) {
 				alert("Email sudah digunakan oleh admin lain.");
 			}

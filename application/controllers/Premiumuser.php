@@ -9,7 +9,7 @@ class Premiumuser extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 }

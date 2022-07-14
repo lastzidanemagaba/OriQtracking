@@ -20,7 +20,7 @@ class Premium extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 
@@ -33,7 +33,7 @@ class Premium extends CI_Controller {
 				'editedPremiumID' => $id
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 }

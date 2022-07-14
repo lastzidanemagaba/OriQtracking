@@ -9,7 +9,7 @@ class Jadwalsholat extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -20,7 +20,7 @@ class Jadwalsholat extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -33,7 +33,7 @@ class Jadwalsholat extends CI_Controller {
 				'editedJadwalSholatID' => $id
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 }

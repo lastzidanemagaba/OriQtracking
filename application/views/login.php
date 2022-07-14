@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://dev.jtindonesia.com/admin/js/global.js"></script>
-	  <script src="https://dev.jtindonesia.com/admin/js/angular.js"></script>
-	<script src="https://dev.jtindonesia.com/admin/js/login.js"></script>
+	<script src="http://localhost/admin/js/global.js"></script>
+	  <script src="http://localhost/admin/js/angular.js"></script>
+	<script src="http://localhost/admin/js/login.js"></script>
 
 	</head>
 	<body>

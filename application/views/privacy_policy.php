@@ -10,14 +10,14 @@
 
 <div id="pdf" style="width: 100%; display: flex; flex-direction: column; align-items: center;"></div>
 
-<script src="https://dev.jtindonesia.com/admin/js/pdf.js"></script>
+<script src="http://localhost/admin/js/pdf.js"></script>
 
 <script id="script">
   //
   // If absolute URL from the remote server is provided, configure the CORS
   // header on that server.
   //
-  const url = 'https://dev.jtindonesia.com/admin/userdata/privacy_policy.pdf';
+  const url = 'http://localhost/admin/userdata/privacy_policy.pdf';
   var currPage = 1; //Pages are 1-based not 0-based
   var numPages = 0;
   var pdf;

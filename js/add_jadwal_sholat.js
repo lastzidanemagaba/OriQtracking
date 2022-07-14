@@ -16,6 +16,6 @@ function save() {
 	})
 		.then(response => response.text())
 		.then(async (response) => {
-			window.location.href = "https://dev.jtindonesia.com/admin/jadwalsholat";
+			window.location.href = "http://localhost/admin/jadwalsholat";
 		});
 }

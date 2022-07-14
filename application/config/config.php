@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://dev.jtindonesia.com/';
-//$config['base_url'] = 'http://192.168.22.187/admin/';
+//$config['base_url'] = 'https://dev.jtindonesia.com/';
+$config['base_url'] = 'http://192.168.22.157/admin/';
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +36,7 @@ $config['base_url'] = 'https://dev.jtindonesia.com/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

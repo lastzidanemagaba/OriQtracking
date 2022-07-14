@@ -64,6 +64,6 @@ function save() {
 	})
 		.then(response => response.text())
 		.then(async (response) => {
-			window.location.href = "https://dev.jtindonesia.com/admin/premium";
+			window.location.href = "http://localhost/admin/premium";
 		});
 }

@@ -6,7 +6,7 @@
 		<script type="text/javascript">
 			$(document).ready(function () {
 				setTimeout(() => {
-					window.location.href = "https://dev.jtindonesia.com/admin/user/set_email_verified";
+					window.location.href = "http://localhost/admin/user/set_email_verified";
 				}, 2000);
 			});
 		</script>

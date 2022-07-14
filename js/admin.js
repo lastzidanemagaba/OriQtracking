@@ -33,7 +33,7 @@ app.controller("qtracking-controller", function ($scope, $http) {
 				})
 					.then(response => response.text())
 					.then(async (response) => {
-						window.location.href = "https://dev.jtindonesia.com/admin/admin";
+						window.location.href = "http://localhost/admin/admin";
 					});
 			}
 		};

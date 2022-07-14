@@ -15,13 +15,13 @@
     <meta name="robots" content="noindex,nofollow">
     <title>Tambah Panduan Umroh</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dev.jtindonesia.com/admin/assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost/admin/assets/images/logo.png">
     <!-- Custom CSS -->
-    <link href="https://dev.jtindonesia.com/admin/css/style.min.css" rel="stylesheet">
-    <script src="https://dev.jtindonesia.com/admin/assets/plugins/jquery/dist/jquery.min.js"></script>
-    <script src="https://dev.jtindonesia.com/admin/js/global.js"></script>
-	<script src="https://dev.jtindonesia.com/admin/js/angular.js"></script>
-    <script src="https://dev.jtindonesia.com/admin/js/add_panduan_umroh.js"></script>
+    <link href="http://localhost/admin/css/style.min.css" rel="stylesheet">
+    <script src="http://localhost/admin/assets/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="http://localhost/admin/js/global.js"></script>
+	<script src="http://localhost/admin/js/angular.js"></script>
+    <script src="http://localhost/admin/js/add_panduan_umroh.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,19 +54,19 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand ms-4" href="https://dev.jtindonesia.com/admin">
+                    <a class="navbar-brand ms-4" href="http://localhost/admin">
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="https://dev.jtindonesia.com/admin/assets/images/logo.png" alt="homepage" class="dark-logo" width="30px" height="30px" />
+                            <img src="http://localhost/admin/assets/images/logo.png" alt="homepage" class="dark-logo" width="30px" height="30px" />
 
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="https://dev.jtindonesia.com/admin/assets/images/title.png" alt="homepage" class="dark-logo" width="120px" height="18px" style="margin-left: 5px;" />
+                            <img src="http://localhost/admin/assets/images/title.png" alt="homepage" class="dark-logo" width="120px" height="18px" style="margin-left: 5px;" />
 
                         </span>
                     </a>
@@ -249,15 +249,15 @@
     <!-- All Jquery -->
     <!-- ============================================================== -->
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="https://dev.jtindonesia.com/admin/assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://dev.jtindonesia.com/admin/js/app-style-switcher.js"></script>
-    <script src="https://dev.jtindonesia.com/admin/js/jquery.redirect.js"></script>
+    <script src="http://localhost/admin/assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost/admin/js/app-style-switcher.js"></script>
+    <script src="http://localhost/admin/js/jquery.redirect.js"></script>
     <!--Wave Effects -->
-    <script src="https://dev.jtindonesia.com/admin/js/waves.js"></script>
+    <script src="http://localhost/admin/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="https://dev.jtindonesia.com/admin/js/sidebarmenu.js"></script>
+    <script src="http://localhost/admin/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="https://dev.jtindonesia.com/admin/js/custom.js"></script>
+    <script src="http://localhost/admin/js/custom.js"></script>
 	<input id="bab-id" type="text" style="width: 0; height: 0; visibility: hidden;" value="<?php echo $babID; ?>">
 	<input id="subbab-id" type="text" style="width: 0; height: 0; visibility: hidden;" value="<?php echo $subbabID; ?>">
 	<input id="admin-id" type="text" style="width: 0; height: 0; visibility: hidden;" value="<?php echo $adminID; ?>">

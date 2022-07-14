@@ -8,6 +8,6 @@ class Logout extends CI_Controller {
 			'user_id' => 0,
 			'name' => ''
 		));
-		header("Location: https://dev.jtindonesia.com/admin");
+		header("Location: http://localhost/admin");
 	}
 }

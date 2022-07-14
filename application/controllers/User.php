@@ -14,7 +14,7 @@ class User extends CI_Controller {
 				'adminID' => $userID
 			));
 		} else {
-			header('Location: https://dev.jtindonesia.com/admin/login');
+			header('Location: http://localhost/admin/login');
 		}
 	}
 	
@@ -969,7 +969,7 @@ class User extends CI_Controller {
 		$rundownID = intval($this->db->insert_id());
 		$rundown = $this->db->query("SELECT * FROM `rundowns` WHERE `id`=".$rundownID)->row_array();
 		if ($photoUploaded == 1) {
-			if ($this->upload->do_upload('photo')) {
+			if ($this- >upload->do_upload('photo')) {
 				$photoPath = $this->upload->data()['file_name'];
 				$this->db->where("id", $rundownID);
 				$this->db->update("rundowns", array(
